@@ -10,6 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "IQKeyboardManagerSwift",
+            type: .static,
             targets: ["IQKeyboardManagerSwift"]
         )
     ],
